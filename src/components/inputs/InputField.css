@@ -1,0 +1,58 @@
+.inputData {
+  margin-block: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.textPrimary {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inputContainer {
+  max-width: 91%;
+  width: 100%;
+  margin-block: 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: rgb(247, 255, 254);
+  border-color: rgb(247, 255, 254);
+}
+
+@media (max-width: 840px) {
+  .inputContainer {
+    max-width: 87%;
+    width: 100%;
+    margin-block: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+
+  .textPrimary,
+  .textSecondary {
+    font-size: 17px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 480px) {
+  .inputContainer {
+    max-width: 87%;
+    width: 100%;
+    margin-block: 5px;
+    padding: 7px;
+    font-size: 10px;
+    border-radius: 8px;
+  }
+
+  .textPrimary,
+  .textSecondary {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

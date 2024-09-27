@@ -1,0 +1,56 @@
+.folioCard {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; /* Para asegurarse de que los bordes se recorten */
+}
+
+.folioImage {
+    vertical-align: middle;
+    width: 100%; /* Ocupar el 100% del contenedor */
+    height: 100%; /* Ocupar el 100% del contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra todo el área sin deformarse */
+}
+
+.folioDetails {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .4s ease-in-out; 
+}
+
+.folioImage,
+.folioDetails {
+    border-radius: 0.5rem;
+}
+
+.folioTitle {
+    font-size: 1.5rem;
+}
+
+.folioTitle,
+.folioDescription {
+    color: white;
+    transform: translateY(1.5rem);
+    transition: all .3s ease-in-out;
+}
+
+.folioDescription {
+    font-size: 1.125rem;
+}
+
+.folioCard:hover .folioDetails {
+    opacity: 1;
+}
+
+.folioCard:hover :is(.folioTitle, .folioDescription) {
+    transform: translateY(0);
+}

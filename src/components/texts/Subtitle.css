@@ -1,0 +1,12 @@
+.normalText {
+    margin-inline: 10px;
+  }
+  
+  .subtitleText {
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight:inherit;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  

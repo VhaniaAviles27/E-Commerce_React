@@ -1,0 +1,36 @@
+.button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #fbabff;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #f576fc;
+}
+
+@media (max-width: 840px) {
+  .button {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 60%;
+  }
+}
