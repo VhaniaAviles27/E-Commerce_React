@@ -85,5 +85,82 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 15px;
   }
+
+  .containerOptions{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content:space-between;
+    
+  }
+
+  .containerFlowers {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.698);
+    padding-inline: 70px;
+    padding-block: 20px;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .containerPrice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .containerPriceSave {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .containerProductCart{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.698);
+    padding-inline: 10px;
+    padding-block: 10px;
+    align-items: center;
+    border-radius: 20px;
+    
+  }
+
+  .containerView{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+  }
+
+.containerDetail{
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20px;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10px;
+  margin-block: 5px;
+}
+
+.details text{
+  margin-block: 5px;
+}
+
+
+
+.productFinalCost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  justify-content: space-between;
+  width: 95%;
+}

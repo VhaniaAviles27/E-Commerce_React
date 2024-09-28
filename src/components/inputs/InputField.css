@@ -2,7 +2,8 @@
   margin-block: 5px;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
+  max-width: 250px;
 }
 
 .textPrimary {
@@ -13,8 +14,7 @@
 }
 
 .inputContainer {
-  max-width: 91%;
-  width: 100%;
+  max-width: 250px;
   margin-block: 5px;
   padding: 10px;
   font-size: 15px;

@@ -5,6 +5,8 @@ import Register from "./functions/auth/register/Register";
 import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
 import Detail from "./pages/Detail";
+import Personalize from "./pages/Personalize";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
         <Route path="/home" element={<Home/>} />
         <Route path="/catalog" element={<Catalog/>}/>
         <Route path="/detail" element={<Detail/>}/>
+        <Route path="/personalize" element={<Personalize/>}/>
+        <Route path="/cart" element={<Cart/>}/>
+        
       </Routes>
     </Router>
   );

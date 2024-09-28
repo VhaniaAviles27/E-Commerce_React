@@ -6,7 +6,7 @@ import Card from "../components/cards/Card";
 import "./Pages.css";
 import Dropdown from "../components/dropdown/Dropdown";
 import ButtonRef from "../components/buttons-ref/ButtonRef";
-import { fa1, fa2, fa3, faCircle } from "@fortawesome/free-solid-svg-icons";
+import { fa1, fa2, fa3} from "@fortawesome/free-solid-svg-icons";
 
 const Catalog = () => {
   const options = [
