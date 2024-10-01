@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
   }
   
   html, body {
@@ -10,10 +11,12 @@
     height: 100%;
     font-family: Arial, sans-serif; /* O la fuente de tu elección */
     font-size: 16px;
+    
   }
   
   #root {
     height: 100%; /* Asegura que el root ocupe toda la altura disponible */
+    
   }
   
   button, input, select, textarea {

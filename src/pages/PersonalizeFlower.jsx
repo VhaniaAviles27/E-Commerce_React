@@ -9,7 +9,7 @@ import InputField from "../components/inputs/InputField";
 import Card from "../components/cards/Card";
 import SimpleText from "../components/texts/SimpleText";
 
-const Personalize = () => {
+const PersonalizeFlower = () => {
   const optionsFlowers = ["Rosas", "Margaritas", "Girasoles", "Tulipanes"];
   const optionsSize = [
     "Pequeño (largo: 10cm)",
@@ -69,4 +69,4 @@ const Personalize = () => {
   );
 };
 
-export default Personalize;
+export default PersonalizeFlower;

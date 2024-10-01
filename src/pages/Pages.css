@@ -164,3 +164,50 @@
   justify-content: space-between;
   width: 95%;
 }
+
+.selectTeddy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.containerData{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+.containerDedication{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+
+}
+.containerReason{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.containerText{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.successRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+}
+
+.successIcon {
+  margin-bottom: 20px;
+}

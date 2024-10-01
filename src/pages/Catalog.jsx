@@ -58,58 +58,28 @@ const Catalog = () => {
         <div className="folioContainer">
           <Card
             imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
+            title="Girasoles"
             description="Odio de vos - Floricienta"
             width="283px"
             height="283px"
           />
           <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
+            imageSrc="src/assets/images/foto-rosas.jpg"
+            title="Rosas"
             description="Odio de vos - Floricienta"
             width="283px"
             height="283px"
           />
           <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
+            imageSrc="src/assets/images/foto-tulipanes.jpg"
+            title="Tulipanes"
             description="Odio de vos - Floricienta"
             width="283px"
             height="283px"
           />
           <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
-            description="Odio de vos - Floricienta"
-            width="283px"
-            height="283px"
-          />
-        </div>
-        <div className="folioContainer">
-          <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
-            description="Odio de vos - Floricienta"
-            width="283px"
-            height="283px"
-          />
-          <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
-            description="Odio de vos - Floricienta"
-            width="283px"
-            height="283px"
-          />
-          <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
-            description="Odio de vos - Floricienta"
-            width="283px"
-            height="283px"
-          />
-          <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
+            imageSrc="src/assets/images/foto-orquideas.jpg"
+            title="Orquideas"
             description="Odio de vos - Floricienta"
             width="283px"
             height="283px"
@@ -117,29 +87,59 @@ const Catalog = () => {
         </div>
         <div className="folioContainer">
           <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
+            imageSrc="src/assets/images/foto-claveles.jpg"
+            title="Claveles"
             description="Odio de vos - Floricienta"
             width="283px"
             height="283px"
           />
           <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
+            imageSrc="src/assets/images/foto-lirios.jpg"
+            title="Lirios"
             description="Odio de vos - Floricienta"
             width="283px"
             height="283px"
           />
           <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
+            imageSrc="src/assets/images/foto-stitch.jpg"
+            title="Stitch"
             description="Odio de vos - Floricienta"
             width="283px"
             height="283px"
           />
           <Card
-            imageSrc="src/assets/images/foto-girasoles.png"
-            title="Flores amarillas"
+            imageSrc="src/assets/images/foto-oso.png"
+            title="Oso"
+            description="Odio de vos - Floricienta"
+            width="283px"
+            height="283px"
+          />
+        </div>
+        <div className="folioContainer">
+          <Card
+            imageSrc="src/assets/images/foto-pikachu.jpg"
+            title="Pikachu"
+            description="Odio de vos - Floricienta"
+            width="283px"
+            height="283px"
+          />
+          <Card
+            imageSrc="src/assets/images/foto-clubpenguin.jpg"
+            title="Club Penguin"
+            description="Odio de vos - Floricienta"
+            width="283px"
+            height="283px"
+          />
+          <Card
+            imageSrc="src/assets/images/foto-creeper.jpg"
+            title="Creeper"
+            description="Odio de vos - Floricienta"
+            width="283px"
+            height="283px"
+          />
+          <Card
+            imageSrc="src/assets/images/foto-osito.jpeg"
+            title="Pop col"
             description="Odio de vos - Floricienta"
             width="283px"
             height="283px"
